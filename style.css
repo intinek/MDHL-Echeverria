@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.titulo-principal {
+  font-style: italic;
+  font-size: 25px;
+  position: relative;
+  left: 170px;
+}
+.caja {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.img {
+  width: 1000px;
+  height: 450px;
+  background-image: url(./imagenes/design1_image2.jpg);
+  background-size: contain;
+  background-position: center;
+  margin-left: 170px;
+}
+.barra {
+    
+    width: 1000px;
+    height: 30px;
+    margin-left: 170px;
+  text-align: center;
+  background: gray;
+}
+
+.nav {
+  position: absolute;
+
+  right: 0;
+  margin-top: -1%;
+}
+nav a {
+  text-transform: uppercase;
+  color: antiquewhite;
+  text-decoration: none;
+}
+button{
+  width: 90px;
+  margin: 0 2px 0 2px;
+  font-size:20px;
+  background: dodgerblue;
+  
+
+
+}
+
+#logo {
+  position: absolute;
+  left: 200px;
+}
+.texto {
+  position: absolute;
+  left: 450px;
+  top: 550px;
+}
+.texto1 {
+    width: 600px;
+    height: 300px;
+  position: absolute;
+  left: 450px;
+  top: 550px;
+}
+.texto2 {
+    width: 600px;
+    height: 300px;
+  position: absolute;
+  left: 450px;
+  top: 600px;
+}
+
+p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-indent: 4%;
+}
